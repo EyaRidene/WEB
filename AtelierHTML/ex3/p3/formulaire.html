@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription En licence</title>
+</head>
+<body>
+    <font align="center"><h1>Inscription en licence</h1>
+    <FORM ACTION="aud-vid.html" METHOD="post" NAME ="inscri">
+        <fieldset>
+        <legend>Informations personnelles</legend> <br>
+        <label>Votre nom :</label> <INPUT TYPE="text" NAME="nom" SIZE=10
+        MAXLENGTH=20> <BR> <BR>
+        <label>Votre prénom :</label> <INPUT TYPE="text" NAME="prenom"
+        SIZE=10 MAXLENGTH=20> <BR> <BR>
+        <label>Date Naissance :</label> <INPUT TYPE="date" NAME="nom" SIZE=10
+        MAXLENGTH=20> <BR> <BR>
+        <label>Votre age :</label> <INPUT TYPE="number" NAME="nom" SIZE=10
+        MAXLENGTH=20> <BR> <BR>
+        Votre adresse : <TEXTAREA NAME="adr" ROWS=5 COLS=40></TEXTAREA> <BR> <BR>
+        <label>Votre adresse mail :</label> <INPUT TYPE="email" NAME="nom" SIZE=10
+        MAXLENGTH=20> <BR> <BR>
+        <label>URL du site etudiant :</label> <INPUT TYPE="url" NAME="nom" SIZE=10
+        MAXLENGTH=20> <BR> <BR>
+        <label for="passwd">Mot de passe  :</label> <INPUT TYPE="password" NAME="passwd"
+        ID="passwd" SIZE=10 MAXLENGTH=20 required> <BR> <BR>
+        <label>Retaper votre mot de passe :</label> <INPUT TYPE="password" NAME="prenom"
+        SIZE=10 MAXLENGTH=20 required> <BR> <BR>
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Gestion des groupes et des options</legend> <br><br><br>
+        Votre groupe: <INPUT TYPE ="radio" NAME ="groupe" VALUE="Groupe 1" checked>
+        Groupe 1 <INPUT TYPE ="radio" NAME =" groupe" VALUE="Groupe 2">
+        Groupe 2 <INPUT TYPE ="radio" NAME =" groupe" VALUE="Groupe 3">
+        Groupe 3 <br><br>
+        <label> numero de carte d'etudiant :</label> <INPUT TYPE="text" NAME="prenom"
+        SIZE=10 MAXLENGTH=20> <BR> <BR>
+       Choisissez les options que vous desirez :
+        <SELECT NAME="option" size="5" >
+        <OPTION VALUE="J"> J2ee
+        <OPTION VALUE="An" selected> Android
+        <OPTION VALUE="Ne"> Net
+        <OPTION VALUE="H5"> Html5
+        <OPTION VALUE="Cs"> CSS
+        </SELECT> <br><br>
+        </fieldset>
+        <br>
+        <INPUT TYPE="submit" VALUE="Valider">
+        <INPUT TYPE="reset" VALUE="Reinitialiser">
+    </FORM>
+</font>
+</body>
+</html>
